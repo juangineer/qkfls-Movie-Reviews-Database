@@ -5,3 +5,6 @@ applications:
    domain: us-south.cf.appdomain.cloud
    random-route: false
    memory: 128M
+   services:
+   - cmrdb-cloudant
+   - cmrdb-nlu
